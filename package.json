@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/kalontech/ReactNativeWheelPicker",
   "dependencies": {
+    "@react-native-community/datetimepicker": "^2.5.0",
+    "@react-native-community/picker": "^1.6.5",
     "moment": "^2.24.0"
   }
 }

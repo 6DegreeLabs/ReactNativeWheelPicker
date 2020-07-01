@@ -1,5 +1,6 @@
 import React from 'react';
-import { DatePickerIOSProps, StyleProp, ViewStyle } from 'react-native';
+import { StyleProp, ViewStyle } from 'react-native';
+import { DatePickerOptions } from '@react-native-community/datetimepicker';
 
 interface IStyle {
 	selectedItemTextColor?: string;
@@ -38,7 +39,7 @@ export class TimePicker extends React.Component<IPropsTimePicker> {
 	constructor(props: IPropsTimePicker);
 }
 
-export interface IPropsDatePicker extends DatePickerIOSProps {
+export interface IPropsDatePicker extends DatePickerOptions {
 	initDate?: Date;
 	days?: string[];
 	hours?: string[];

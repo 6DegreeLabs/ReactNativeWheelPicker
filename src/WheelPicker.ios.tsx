@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Picker, View } from "react-native";
+import { View } from "react-native";
+import { Picker } from "@react-native-community/picker";
 
 interface Props {
   data: Array<string>;
